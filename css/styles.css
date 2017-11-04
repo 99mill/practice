@@ -12,7 +12,6 @@
   background-image: url('../img/landing.jpg');
   background-size: cover;
   background-position: center;
-
 }
 
 #greeting {
@@ -37,9 +36,43 @@
   transition: .8s;
 }
 
-
-
 .down-arrow:hover {
   transition: .8s;
   background: rgba(145, 145, 145, 0.47);
 }
+
+/*===NAV BAR===*/
+
+
+
+
+
+
+
+
+/*===HOME PAGE===*/
+
+.home-page {
+  height: 100vh;
+  background-image: url('../img/bike.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
