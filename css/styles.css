@@ -100,10 +100,11 @@ ul.navbar-nav>li>a.nav-btn {
   color: #fff;
   font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
+  transition: 1s;
 }
 
 ul.navbar-nav>li>a.nav-btn:hover {
-  color: #E4DFDF;
+  color: #E2E2E2;
   transition: 1s;
 }
 
@@ -200,10 +201,15 @@ ul.navbar-nav>li>a.nav-btn:hover {
 }
 
 .blurb {
-  padding: 25px;
+  padding: 35px;
 }
 
-
+.blurb>h4 {
+  text-indent: 50px;
+  font-size: 24px;
+  line-height: 1.3em;
+  text-align: justify;
+}
 
 
 
