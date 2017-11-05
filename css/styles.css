@@ -13,16 +13,19 @@ font-family: 'Cormorant Garamond', serif;*/
   color: #fff;
 }
 
-h1 {
+.rt-brdr {
+  border-right: solid #E4DFDF 1px;
+}
+
+h1, h3 {
   font-family: 'Playfair Display', serif;
 }
 
-h2 {
+h4 {
   font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
 }
 
-p {
+p, h2 {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
 }
@@ -79,6 +82,7 @@ p {
   background-color: rgba(255, 255, 255, 0.05);
   border: none;
   height: 75px;
+  z-index: 1;
 }
 
 #brand {
@@ -176,7 +180,53 @@ ul.navbar-nav>li>a.nav-btn:hover {
   margin-top: 75px;
 }
 
-===
+/*======ABOUT======*/
+
+.about-services {
+  /*height: 100vh;*/
+  height: 800px;
+  border: solid black 1px;
+}
+
+#portrait {
+  width: 400px;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.about-tags h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+.blurb {
+  padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
