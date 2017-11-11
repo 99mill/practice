@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>Document</title>
 </head>
@@ -26,6 +27,7 @@
     </div>
   </div>
 </div>
+
 
 <!-- NAVBAR -->
 <header class="navbar navbar-default">
@@ -56,6 +58,7 @@
   <!-- /.container-fluid -->
 </header>
 
+
 <!-- HOME PAGE -->
 <div class="container-fluid home-page">
   <div class="row row-one">
@@ -70,12 +73,14 @@
   </div>
 </div>
 
+
 <!-- ABOUT / SERVICES -->
 
-<div class="container about-services">
-  <div class="row">
-    <!-- ABOUT -->
-    <div class="col-sm-5">
+<div class="container-fluid">
+  <div class="row about-services">
+
+  <!-- ABOUT -->
+    <div class="col-sm-6 about">
       <!-- portrait -->
       <div class="row">
         <img src="img/portrait.png" alt="portrait" class="center-block" id="portrait">
@@ -97,12 +102,113 @@
         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus eos vero, excepturi voluptates, eaque a possimus sapiente ex et vel architecto quibusdam, ab error nihil, sint vitae! Ducimus iusto similique sed blanditiis commodi? Tenetur, maxime, numquam saepe sed esse quas, ut nesciunt, ullam molestiae voluptate expedita voluptates quasi hic adipisci.</h2>
       </div>
     </div>
+
     <!-- SERVICES -->
-    <div class="col-sm-5 col-sm-offset-2">
-      <h1>s</h1>
+    <div class="col-sm-6 services">
+      <div class="row serv-heading">
+        <h1>Services</h1>
+      </div>
+      <!-- FIRST SERVICE -->
+      <div class="row service">
+        <h3>Coffee</h3>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, sit.</h4>
+      </div>
+      <!-- SECOND SERVICE -->
+      <div class="row service">
+        <h3>Branding</h3>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam assumenda corrupti ut laudantium sequi, vitae error. Labore quos esse, facilis aperiam optio, magni est consequuntur.</h4>
+      </div>
+      <!-- THIRD SERVICE -->
+      <div class="row service">
+        <h3>Website</h3>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti architecto corporis, accusantium adipisci accusamus veniam ab sed eos aliquid dolorum.</h4>
+      </div>
+
     </div>
   </div>
 </div>
+
+
+<!-- CONTACT -->
+
+<div class="container-fluid contact-pg">
+  <div class="row">
+    <div class="col-sm-12 text-center cont-heading">
+      <!-- CONTACT CALL TO ACTION -->
+      <h1>Let's collaborate.</h1>
+      <p>Drop me an inquiry and let's work together on something new!</p>
+    </div>
+  </div>
+  <div class="row contact">
+    <div class="col-sm-5 col-sm-offset-1">
+      <!-- CONTACT FORM -->
+      <form action="" class="contact-form">
+        <!-- NAME -->
+        <div class="form-group">
+          <label for="Name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <!-- EMAIL -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+        </div>
+        <!-- SUBJECT -->
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="subject" class="form-control" id="subject" placeholder="Message Subject" required>
+        </div>
+        <!-- MESSAGE -->
+        <div>
+          <label for="message">Message</label>
+          <textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>
+        </div>
+        <!-- CHECKBOX / CAPTCHA -->
+        <div class="checkbox">
+          <label>
+          <input type="checkbox" value="">
+          I'm not a robot...
+        </label>
+        </div>
+
+      </form>
+
+    </div>
+    <div class="col-sm-5">
+      <!-- ADDRESS / LOCATION -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.6043775818744!2d-119.7879436846211!3d36.732061679962655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4f58091%3A0xf082a7e633ee41f0!2s700+Van+Ness+Ave%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1493348551575"
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+
+<footer class="container-fluid text-center">
+  <div class="row footer">
+    <!-- LOGO -->
+    <div class="col-sm-4">
+      <a class="navbar-brand text-center" id="brand" href="#">Lorem Ipsum</a>
+    </div>
+    <!-- ADDRESS -->
+    <div class="col-sm-4">
+      <address class="address">
+      LLMM Design<br>
+      700 Van Ness Ave<br>
+      Fresno, CA 93721
+      </address>
+    </div>
+    <!-- SOCIAL MEDIA LINKS -->
+    <div class="col-sm-4 social-links">
+      <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</footer>
+
+
 
 
 
