@@ -186,18 +186,23 @@ ul.navbar-nav>li>a.nav-btn:hover {
 .about-services {
   /*height: 100vh;*/
   height: 800px;
-  border: solid black 1px;
+  padding: 0px;
+}
+
+.about {
+  height: 800px;
 }
 
 #portrait {
   width: 400px;
   border-radius: 50%;
-  padding: 25px;
+  padding: 35px 25px;
 }
 
 .about-tags h3 {
   text-align: center;
   margin: 0px;
+  height:30px;
 }
 
 .blurb {
@@ -211,25 +216,96 @@ ul.navbar-nav>li>a.nav-btn:hover {
   text-align: justify;
 }
 
+/*===SERVICES===*/
+
+.services {
+  height: 800px;
+}
+
+.serv-heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.service {
+  border: solid #000 2px;
+  margin: 20px;
+  margin-top: 30px;
+  padding: 30px
+}
+
+.ervice h3 {
+  margin-top: 0px;
+}
+
+/*===CONTACT PAGE====*/
+
+.contact-pg {
+  height: 700px;
+}
+
+.cont-heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.cont-heading p {
+  font-size: 18px;
+}
+
+.contact-form {
+  padding-top: 25px;
+}
+
+label {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.form-control {
+  border: 1px solid #000;
+  border-radius: 0%;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
 
 
+/*===FOOTER===*/
+footer {
+  height: 100px;
+  background-color: #000;
+}
 
+.footer {
+  height:60px;
+  margin: 20px 0px;
+}
 
+footer #brand {
+  margin-top: 0px;
+}
 
+address {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  color: #fff;
+}
 
+.social-links {
+  font-size: 36px;
+  text-align: right;
+}
 
+.social-links a {
+  color: #fff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.fa-linkedin-square {
+  margin-right: 11.5px;
+}
 
 
 
